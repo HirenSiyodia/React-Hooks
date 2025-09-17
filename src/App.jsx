@@ -5,8 +5,14 @@ import YouRef from './components/hooks/YouRef'
 import YouMemo from './components/hooks/YouMemo'
 import MemoMethod from './components/hooks/MemoMethod'
 import YouCallBack from './components/hooks/YouCallBack'
+import useFetch from './components/custom_hooks/useFetch'
 
 const App = () => {
+  const {data, error, loading} = useFetch({url:"https://api.github.com/users/HirenSiyodia"})
+
+  console.log({data, error, loading});
+  
+
   return (
     // Hooks jus import which ever you want to see.
     <div className="flex flex-col min-h-[100vh]">
@@ -27,7 +33,7 @@ const App = () => {
     {/* <MemoMethod/> */}
 
     {/* Use Callback */}
-    <YouCallBack/>
+    {/* <YouCallBack/> */}
     </div>
   )
 }
