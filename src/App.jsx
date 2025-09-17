@@ -4,6 +4,7 @@ import YouEffect from './components/hooks/YouEffect'
 import YouRef from './components/hooks/YouRef'
 import YouMemo from './components/hooks/YouMemo'
 import MemoMethod from './components/hooks/MemoMethod'
+import YouCallBack from './components/hooks/YouCallBack'
 
 const App = () => {
   return (
@@ -23,7 +24,10 @@ const App = () => {
     <YouMemo/> */}
 
     {/* Memo Method */}
-    <MemoMethod/>
+    {/* <MemoMethod/> */}
+
+    {/* Use Callback */}
+    <YouCallBack/>
     </div>
   )
 }
