@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
+// we get the data as application runs
+
 const YouEffect = () => {
 //     const [GithubData, setGithubData] = useState(null)
 

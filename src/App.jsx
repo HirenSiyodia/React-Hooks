@@ -3,6 +3,7 @@ import YouState from './components/hooks/YouState'
 import YouEffect from './components/hooks/YouEffect'
 import YouRef from './components/hooks/YouRef'
 import YouMemo from './components/hooks/YouMemo'
+import MemoMethod from './components/hooks/MemoMethod'
 
 const App = () => {
   return (
@@ -18,8 +19,11 @@ const App = () => {
     {/* UseRef Hooks */}
     {/* <YouRef/> */}
 
-    {/* UseMemo Effect */}
-    <YouMemo/>
+    {/* UseMemo Effect
+    <YouMemo/> */}
+
+    {/* Memo Method */}
+    <MemoMethod/>
     </div>
   )
 }
