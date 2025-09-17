@@ -2,6 +2,7 @@ import React from 'react'
 import YouState from './components/hooks/YouState'
 import YouEffect from './components/hooks/YouEffect'
 import YouRef from './components/hooks/YouRef'
+import YouMemo from './components/hooks/YouMemo'
 
 const App = () => {
   return (
@@ -15,7 +16,10 @@ const App = () => {
     {/* <YouEffect/> */}
 
     {/* UseRef Hooks */}
-    <YouRef/>
+    {/* <YouRef/> */}
+
+    {/* UseMemo Effect */}
+    <YouMemo/>
     </div>
   )
 }
