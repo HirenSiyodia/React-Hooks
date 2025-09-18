@@ -1,5 +1,8 @@
 # React + Vite
 
+📦 Features
+🏠 Home page with hero and services section
+
 ### * useState – Manage component state
 
 ### useEffect – Handle side effects (fetching data, subscriptions, timers)
