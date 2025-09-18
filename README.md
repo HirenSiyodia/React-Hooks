@@ -4,16 +4,8 @@ This repository is a collection of examples where I explored and worked individu
 
 # 📦 Features
 
-useState – Manage component state
-
-# 🚀 Tech Stack
 - useEffect – Handle side effects (fetching data, subscriptions, timers)
 - useRef – Access and store DOM elements or mutable values
-
-
-
-### useMemo – Optimize performance with memoized values
-
-### useCallback – Memoize functions to prevent unnecessary re-renders
-
-### Custom Hooks – Reusable logic across multiple components
+- useMemo – Optimize performance with memoized values
+- useCallback – Memoize functions to prevent unnecessary re-renders
+- Custom Hooks – Reusable logic across multiple components
