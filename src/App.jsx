@@ -6,11 +6,12 @@ import YouMemo from './components/hooks/YouMemo'
 import MemoMethod from './components/hooks/MemoMethod'
 import YouCallBack from './components/hooks/YouCallBack'
 import useFetch from './components/custom_hooks/useFetch'
+import Three from './context/Three'
 
 const App = () => {
-  const {data, error, loading} = useFetch({url:"https://api.github.com/users/HirenSiyodia"})
+  // const {data, error, loading} = useFetch({url:"https://api.github.com/users/HirenSiyodia"})
 
-  console.log({data, error, loading});
+  // console.log({data, error, loading});
   
 
   return (
@@ -34,6 +35,9 @@ const App = () => {
 
     {/* Use Callback */}
     {/* <YouCallBack/> */}
+
+    {/* Global Context */}
+    <Three/>
     </div>
   )
 }
