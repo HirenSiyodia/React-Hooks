@@ -8,6 +8,8 @@ import YouCallBack from './components/hooks/YouCallBack'
 import useFetch from './components/custom_hooks/useFetch'
 import Three from './context/Three'
 import UserContextProvider from './context/UserContextProvider'
+import Login from './components/context_components/Login'
+import Profile from './components/context_components/Profile'
 
 const App = () => {
   // const {data, error, loading} = useFetch({url:"https://api.github.com/users/HirenSiyodia"})
@@ -36,11 +38,13 @@ const App = () => {
 
     {/* Use Callback */}
     {/* <YouCallBack/> */}
-
+ 
     {/* Global Context */}
     {/* <Three/> */}
     <UserContextProvider>
-      
+      <h2>context display</h2>
+      <Login/>
+      <Profile/>
     </UserContextProvider>
     </div>
   )
