@@ -7,6 +7,7 @@ import MemoMethod from './components/hooks/MemoMethod'
 import YouCallBack from './components/hooks/YouCallBack'
 import useFetch from './components/custom_hooks/useFetch'
 import Three from './context/Three'
+import UserContextProvider from './context/UserContextProvider'
 
 const App = () => {
   // const {data, error, loading} = useFetch({url:"https://api.github.com/users/HirenSiyodia"})
@@ -37,7 +38,10 @@ const App = () => {
     {/* <YouCallBack/> */}
 
     {/* Global Context */}
-    <Three/>
+    {/* <Three/> */}
+    <UserContextProvider>
+      
+    </UserContextProvider>
     </div>
   )
 }
